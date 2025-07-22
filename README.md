@@ -39,55 +39,54 @@
  - 공지 및 FAQ 등록/수정
  - 신고 접수/처리, 알림 전송
 
-# 5. 사용자 화면
+# 5.기능 시연
+
+### 1) 관리자 대시보드
+**회원관리**  
+_가입된 회원 목록 조회 및 등급 변경_  
+<img src="./src/docs/images/회원관리-관리자.gif" alt="회원관리-관리자.gif" width="1000px" />
+
+**카테고리 관리**  
+_상품 카테고리 추가/수정/삭제_  
+<img src="./src/docs/images/카테고리관리-관리자.gif" alt="카테고리관리-관리자.gif" width="1000px" />
+
+**상품관리**  
+_전체 상품 목록 확인 및 관리_  
+<img src="./src/docs/images/상품관리-관리자.gif" alt="상품관리-관리자.gif" width="1000px" />
+
+**주문/정산**  
+_주문 내역 확인 및 정산 처리_  
+<img src="./src/docs/images/정산관리-관리자.gif" alt="정산관리-관리자.gif" width="1000px" />
+
+**고객지원/알림관리**  
+_고객문의 처리 및 알림 발송_  
+<img src="./src/docs/images/고객지원,알림관리-관리자.gif" alt="고객지원,알림관리-관리자.gif" width="1000px" />
+
+### 2)사용자 화면
 **메인 피드**  
 _오늘의 인기·카테고리별 상품 피드 보기_  
-<img src="./docs/images/목록필터정렬.gif" alt="목록필터정렬.gif" width="1000px" />
+<img src="./src/docs/images/목록필터정렬.gif" alt="목록필터정렬.gif" width="1000px" />
 
 **카카오 로그인/알람**  
 _카카오 소셜 로그인 & 알림 설정_  
-<img src="./docs/images/카카오로그인-알람.gif" alt="카카오로그인-알람.gif" width="1000px" />
+<img src="./src/docs/images/카카오로그인-알람.gif" alt="카카오로그인-알람.gif" width="1000px" />
 
 **상품 상세**  
 _상품 정보, 리뷰, 판매자 프로필 확인_  
-<img src="./docs/images/대여등록하기.gif" alt="대여등록하기.gif" width="1000px" />
+<img src="./src/docs/images/대여등록하기.gif" alt="대여등록하기.gif" width="1000px" />
 
 **대여하기 프로세스**  
 _대여 기간 선택 후 신청_  
-<img src="./docs/images/대여하기2.gif" alt="대여하기2.gif" width="1000px" />
+<img src="./src/docs/images/대여하기2.gif" alt="대여하기2.gif" width="1000px" />
 
 **마이페이지**  
 _개인정보·주문내역·리뷰 관리_  
-<img src="./docs/images/배송지관리 개인정보수정.gif" alt="배송지관리 개인정보수정.gif" width="1000px" />
+<img src="./src/docs/images/배송지관리 개인정보수정.gif" alt="배송지관리 개인정보수정.gif" width="1000px" />
 
 **찜/신고/쪽지**  
 _찜하기, 신고하기, 쪽지 보내기 기능_  
-<img src="./docs/images/찜,신고,쪽지.gif" alt="찜,신고,쪽지.gif" width="1000px" />
+<img src="./src/docs/images/찜,신고,쪽지.gif" alt="찜,신고,쪽지.gif" width="1000px" />
 
-## <span id="5">5. 주요 기능 상세 및 트러블슈팅</span>
-
-<details>
-<summary><strong>📦 상품 등록 및 트러블슈팅</strong></summary>
-
-**프로세스 요약**
-1. 상품 유형 선택 → 입력 폼 작성 → 등록 버튼 클릭
-2. 서버에 결과 전송 → DB 저장 및 반영
-
-**문제 해결 사례**
-- Cos 라이브러리로 이미지 1개만 업로드 가능 → name 속성 분리하여 해결
-- 대여상품 등록 시 시작/종료일 누락 → 필수입력 지정 추가
-- 배송지 자동 입력 → 카카오맵 API로 위경도 자동 지정
-
-</details>
-
-<details>
-<summary><strong>💳 결제 및 트러블슈팅</strong></summary>
-
-**결제 흐름**
-![image](https://github.com/user-attachments/assets/fcd9b5d2-0bb2-4a55-8d38-884d4aeaba5a)
-
-1. 상품 상세에서 구매 클릭 → 결제창 호출
-2. 결제 완료 시 Toss API와 연동 → DB 저장 및 알림 전송
 
 # 5.개발환경 및 기술스택
 **FrontEnd**  
