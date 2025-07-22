@@ -130,4 +130,9 @@ _찜하기, 신고하기, 쪽지 보내기 기능_
 ![Naver Login](https://img.shields.io/badge/Naver_Login-03C75A?style=for-the-badge&logo=naver&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
+# 6.화면 설계
+<img src="./src/docs/images/Rent ERD.png" alt="Rent ERD.png" width="1000px" />
 
+
+# 7.데이터베이스 설계
+<img src="./src/docs/images/Rent 피그마.png" alt="Rent 피그마.png" width="1000px" />
