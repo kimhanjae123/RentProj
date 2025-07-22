@@ -15,7 +15,11 @@
 2.확실한 수익모델
 3.공공의 이익에 기여**
 
-# 3.개발환경 및 기술스택
+# 3.팀원 및 담당업무
+| 팀원 | 담당 업무|
+
+
+# 4.개발환경 및 기술스택
 **FrontEnd**  
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
@@ -51,3 +55,5 @@
 ![Kakao Login](https://img.shields.io/badge/Kakao_Login-F7E600?style=for-the-badge&logo=kakao&logoColor=black)
 ![Naver Login](https://img.shields.io/badge/Naver_Login-03C75A?style=for-the-badge&logo=naver&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+
