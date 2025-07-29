@@ -23,8 +23,8 @@ public class Refund extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
-	// ★ 여기에 너의 secret key 넣기 (test / live 구분)
-	private static final String SECRET_KEY = "test_sk_pP2YxJ4K87d0W2eyzdE93RGZwXLO";
+	//SECRET_KEY에 키 값 넣기
+	private static final String SECRET_KEY = SECRET_KEY;
 
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
